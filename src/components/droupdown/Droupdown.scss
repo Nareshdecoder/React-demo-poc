@@ -1,0 +1,19 @@
+.select {
+  border: none;
+  color: blue;
+  background-color: transparent;
+}
+.select:focus-visible {
+  outline: none;
+}
+
+.default {
+  color: black;
+  border: 1px solid gray;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.default:focus-visible {
+  outline: none;
+}

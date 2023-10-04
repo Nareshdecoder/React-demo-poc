@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  padding: 10px;
+  .row {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    border: 1px solid gray;
+    padding: 20px;
+  }
+  .statment-info-header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  .justify-end {
+    justify-content: end;
+  }
+  .statment-info-body {
+    display: flex;
+    justify-content: space-around;
+  }
+  .statment-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .green-badge {
+    background-color: lightgreen;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #008500;
+  }
+}
+.row:nth-child(2) {
+  border-left: none;
+}
